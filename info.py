@@ -81,7 +81,7 @@ SECOND_FILES_DATABASE_URL = environ.get('SECOND_FILES_DATABASE_URL', "mongodb+sr
 if len(SECOND_FILES_DATABASE_URL) == 0:
     logger.info('SECOND_FILES_DATABASE_URL is empty')
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster19")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Fi$es')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Fiess')
 
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/VJRC_177')
