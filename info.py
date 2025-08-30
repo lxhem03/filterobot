@@ -61,7 +61,7 @@ else:
     LOG_CHANNEL = int(LOG_CHANNEL)
     
 # support group
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '')
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1002326865341')
 if len(SUPPORT_GROUP) == 0:
     logger.error('SUPPORT_GROUP is missing, exiting now')
     exit()
@@ -84,14 +84,14 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster19")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Fi$es')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/HA_Bots_Support')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/HA_Bots')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/HA_Films_World')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/HA_Bots")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/HA_Bots")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/VJRC_177')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Manchi_moviesZ')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/Manchi_moviesZ')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Manchi_moviesZ")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Manchi_moviesZ")
 
 # Bot settings
-TIME_ZONE = environ.get('TIME_ZONE', 'Asia/Colombo') # Replace your time zone
+TIME_ZONE = environ.get('TIME_ZONE', 'Asia/Kolkata') # Replace your time zone
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 MAX_BTN = int(environ.get('MAX_BTN', 8))
@@ -99,8 +99,8 @@ LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'hindi en
 QUALITY = [quality.lower() for quality in environ.get('QUALITY', '360p 480p 720p 1080p 2160p').split()]
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "mdiskshortner.link")
-SHORTLINK_API = environ.get("SHORTLINK_API", "36f1ae74ba1aa01e5bd73bdd0bc22aa915443501")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "")
+SHORTLINK_API = environ.get("SHORTLINK_API", "")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 0)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
